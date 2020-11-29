@@ -1,9 +1,9 @@
 # Interactions
 
-these functions' role is to implement entire user interactions.
-they will use the _prompts_ and _renders_ to interact with the user, and _logic_ to process user data.
+These functions' role is to implement entire user interactions.
+They will use the _prompts_ and _renders_ to interact with the user, and _logic_ to process user data.
 
-you will call interaction functions from your UI using the `onclick` attribute.
+You will call interaction functions from your UI using the `onclick` attribute.
 
 Here are some general rules for your interaction functions:
 

@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/hackyourfuturebelgium/separated-domless-starter",
   "devDependencies": {
-    "jsdoc-to-markdown": "^6.0.1"
+    "jsdoc-to-markdown": "^6.0.1",
+    "prettier": "^2.2.1"
   }
 }

@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('--- loading data --> ');
+
 /* Program Data
 
   here you will declare the initial values for your program data
@@ -13,3 +15,7 @@
 
 */
 
+/**
+ * @type {string} - the user's saved word
+ */
+let favoriteWord = '';

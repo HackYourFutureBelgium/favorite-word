@@ -1,6 +1,6 @@
 # Logic
 
-these functions' role is to process and transform data. these are the traditional "coding challenge"/algorithm functions
+these functions' role is to process and transform data. Logic functions are your standard "coding challenge" type function. In goes some data, out comes some new data.
 
 Here are some general rules for your logic functions:
 
