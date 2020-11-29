@@ -150,7 +150,6 @@ Here are some general rules for your logic functions:
 ## removeCharacters([text], [charactersToRemove]) ⇒ <code>string</code>
 
 removes all the provided characters from a string
-it will ignore any array entries that are longer than 1 character
 
 **Returns**: <code>string</code> - new string with all provided characters removed
 
