@@ -4,7 +4,6 @@ console.log('--- loading logic --> ');
 
 /**
  * removes all the provided characters from a string
- * it will ignore any array entries that are longer than 1 character
  * @param {string} [text=''] - text to remove characters from
  * @param {string} [charactersToRemove=''] - string of characters to remove
  * @returns {string} new string with all provided characters removed
