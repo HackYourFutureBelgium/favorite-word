@@ -65,7 +65,7 @@ Here are some general rules for your interaction functions:
 
 ## clearWord()
 
-if there is a favorite word, the user is asked to confirm before clearing it
+if there is a favorite word, the user is asked to confirm before clearing it.
 if there is no saved word the user is told there is no word to clear
 
 ---
@@ -76,7 +76,7 @@ if there is no saved word the user is told there is no word to clear
 
 ## displayWord()
 
-displays the saved word if there is one
+displays the saved word if there is one.
 if there is no saved word, it tells the user so
 
 ---
@@ -97,7 +97,7 @@ allows a user to see their word with all the vowels or all the consonants remove
 
 ## repeatWordOrCharacters()
 
-allows a user to see either the whole word repeated, or their word with each character repeated
+allows a user to see either the whole word repeated, or their word with each character repeated.
 if there is no word, the user is told so
 
 ---
@@ -108,7 +108,7 @@ if there is no word, the user is told so
 
 ## reverseWord()
 
-allows a user to set a new value for the saved word
+allows a user to set a new value for the saved word.
 if there's already a saved word, they are asked to confirm replacing it
 
 ---
@@ -119,10 +119,10 @@ if there's already a saved word, they are asked to confirm replacing it
 
 ## setWord()
 
-allows a user to set a new value for the saved word
-if there is no saved word, the user is told so and the interaction ends
-if there is a saved word, the user is asked to confirm replacing it
-if they confirm, they enter a new word that replaces the old one
+allows a user to set a new value for the saved word.
+if there is no saved word, the user is told so and the interaction ends.
+if there is a saved word, the user is asked to confirm replacing it.
+if the user confirms, they enter a new word that replaces the old one.
 
 [TOP](#DOCS)
 
