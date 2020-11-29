@@ -19,3 +19,4 @@ console.log('--- loading data --> ');
  * @type {string} - the user's saved word
  */
 let favoriteWord = '';
+console.assert(favoriteWord === '', 'Test 1');
