@@ -3,7 +3,7 @@
 console.log('--- loading interaction -->');
 
 /**
- * displays the saved word if there is one
+ * displays the saved word if there is one.
  * if there is no saved word, it tells the user so
  */
 const displayWord = () => {

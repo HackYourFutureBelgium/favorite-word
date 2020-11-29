@@ -3,7 +3,7 @@
 console.log('--- loading interaction -->');
 
 /**
- * allows a user to see either the whole word repeated, or their word with each character repeated
+ * allows a user to see either the whole word repeated, or their word with each character repeated.
  * if there is no word, the user is told so
  */
 const repeatWordOrCharacters = () => {
