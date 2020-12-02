@@ -5,7 +5,7 @@ console.log('--- loading prompt --> ');
 /**
  * a function that prompts the user to enter a word
  * if the user enters nothing or cancels, it will prompt them again
- * if the input must contain only letters or a hyphen, or it will prompt again
+ * the input must contain only letters or hyphens, otherwise the user is prompted again
  * @param {string} [message='enter a word'] - what the user will read in the prompt
  * @returns {string} the user input, it will not be empty
  */
@@ -67,4 +67,6 @@ const enterWord = () => {
   const isNotAWord1 = wordRegex.test('1234');
   const isNotAWord2 = wordRegex.test('12-34');
   const isNotAWord3 = wordRegex.test('12df');
+
+  null;
 }
