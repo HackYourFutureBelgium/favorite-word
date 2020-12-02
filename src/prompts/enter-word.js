@@ -61,15 +61,18 @@ const enterWord = () => {
 }
 
 {
-  // hint: you can use this regex to check if a string is a word
+  // hint: you can use this regex to test if a string is a word
+  //  let's say a word is anything with only letters and hyphens
   const wordRegex = /^[a-z|-]*$/i;
 
+  // strings with only letters and hyphens will return true
   const isAWord1 = wordRegex.test('asdf');
   const isAWord2 = wordRegex.test('---');
   const isAWord3 = wordRegex.test('as-df');
 
+  // strings with anything else will return false
   const isNotAWord1 = wordRegex.test('1234');
-  const isNotAWord2 = wordRegex.test('12-34');
+  const isNotAWord2 = wordRegex.test('12-cd');
   const isNotAWord3 = wordRegex.test('12df');
 
   null;
