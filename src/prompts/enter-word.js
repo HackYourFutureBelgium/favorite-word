@@ -10,7 +10,11 @@ console.log('--- loading prompt --> ');
  * @returns {string} the user input, it will not be empty
  */
 const enterWord = () => {
-  // there is a hint at the bottom of this page
+  // an I/O loop:
+  //  a. prompt the user for a word
+  //  b. check if the input is actually a word (hint at the bottom of this page)
+  //  c. if it is a word, return the user input
+  //  d. otherwise prompt the user again
 };
 
 {
@@ -57,7 +61,7 @@ const enterWord = () => {
 }
 
 {
-  // hint:
+  // hint: you can use this regex to check if a string is a word
   const wordRegex = /^[a-z|-]*$/i;
 
   const isAWord1 = wordRegex.test('asdf');
