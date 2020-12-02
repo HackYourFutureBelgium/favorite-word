@@ -271,7 +271,7 @@ it will prompt the user until a valid number is entered
 
 a function that prompts the user to enter a word
 if the user enters nothing or cancels, it will prompt them again
-if the input must contain only letters or a hyphen, or it will prompt again
+the input must contain only letters or hyphens, otherwise the user is prompted again
 
 **Returns**: <code>string</code> - the user input, it will not be empty
 
